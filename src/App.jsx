@@ -16,7 +16,6 @@ function App() {
   }, [])
 
   const handleChange = e => {
-    console.log('e ', e.target.value)
     // FILTRADO POR UNA CLAVE
     //  const newData = data.filter(data => data.titulo.includes(e.target.value))
 
