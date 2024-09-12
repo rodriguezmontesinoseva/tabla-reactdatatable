@@ -1,7 +1,3 @@
-Aquí tienes un ejemplo de un archivo `README.md` para tu proyecto de ejemplo que utiliza **React Data Table** montado en **Vite**:
-
----
-
 # React Data Table Example
 
 Este es un proyecto de ejemplo que utiliza la librería **React Data Table Component** montado con **Vite**. El objetivo es mostrar cómo implementar y configurar tablas dinámicas en una aplicación React, con características como filtrado, ordenamiento y paginación.
