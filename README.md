@@ -72,12 +72,8 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
 
 ## Librerías
 
-- [react-data-table-component](https://www.npmjs.com/package/react-data-table-component): Componente de tabla altamente personalizable.
-- [vite](https://vitejs.dev/): Herramienta de desarrollo para aplicaciones rápidas y modernas en React.
-
-## Contribuir
-
-Si deseas contribuir a este proyecto, puedes hacer un fork del repositorio, realizar tus modificaciones y abrir un pull request.
+- [react-data-table-component](https://www.npmjs.com/package/react-data-table-component)
+- [vite](https://vitejs.dev/)
 
 ## Licencia
 
