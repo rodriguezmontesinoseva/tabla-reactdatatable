@@ -2,41 +2,106 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  --toastify-icon-color-success: #d57392e6;
+  --toastify-color-progress-success: #d57392e6;
+  --toastify-icon-color-info: #52948de6;
+  --toastify-color-progress-info: #52948de6;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  width: 900px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  height: 800px;
+}
+
+/* Estilo del input */
+.search-input {
+  padding: 8px;
+  border: 2px solid #36d7b7;
+  border-radius: 5px;
+  margin: 10px;
+  outline: none;
+  color: rgba(102, 178, 170, 0.9);
+  font-size: 14px;
+  width: 100%;
+}
+
+.search-input:focus {
+  border-color: rgba(224, 219, 220, 0.9);
+}
+
+/* Estilo de la tabla */
+.data-table {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Estilo del título de la tabla */
+.data-table-title {
+  background-color: #2a9d8f;
+  color: white;
+  padding: 15px;
   text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 3px solid #36d7b7;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Estilo de las filas */
+.rdt_TableRow {
+  transition: background-color 0.3s ease-in-out;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Botones adicionales */
+.context-export-button {
+  background-color: rgba(102, 178, 170, 0.9);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.context-export-button:hover {
+  background-color: rgba(82, 148, 141, 0.9);
+  color: white;
 }
 
-.card {
-  padding: 2em;
+/* .rdt_ContexMenu {
+  background-color: rgba(224, 219, 220, 0.9);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+} */
+
+.context-delete-button {
+  background-color: rgba(213, 115, 146, 0.9);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
-.read-the-docs {
-  color: #888;
+.context-delete-button:hover {
+  background-color: rgba(224, 219, 220, 0.9);
+  color: black;
+}
+
+/* Spinner */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
